@@ -10092,5 +10092,8 @@ textarea.form-control-lg {
     transform: rotate(360deg);
   }
 }
+img {
+  max-width: 100%;
+}
 
 /*# sourceMappingURL=app.css.map */

@@ -3,9 +3,7 @@ import Tick from '../Images/Tick.jpg';
 
 import { Row, Col, Button, Container } from "react-bootstrap";
 
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
-// import Button from 'react-bootstrap/Button';
+import LegalCapital from "./subcomponments/LegalCapital";
 
 export default Intro => (
     <Container className="py-5">
@@ -19,7 +17,7 @@ export default Intro => (
             <Col><img src={Tick} /> FCA authorised</Col>
             <Button>Open a Loanpad Account</Button>
 
-            <p className="prominent">Capital at risk. Not protected by the FSCS. Past performance is not an indicator of future results.</p>
+            <LegalCapital />
 
         </Row>
     </Container>

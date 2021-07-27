@@ -15,9 +15,9 @@ import building from '../Images/Landing_page_Opt_building_gif.gif';
 const lastUpdate=('23rd July 2021');
 
 export default LoanbookStats => (
-    <div className="bg-dark text-white">
+    <div className="bg-dark text-white py-5">
         <Container>
-        <h1>Current Loanbook Statistics</h1>
+        <h2>Current Loanbook Statistics</h2>
 
         <Row>
             <Col className="col-md-8">
