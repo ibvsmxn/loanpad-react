@@ -22,6 +22,7 @@ import SimpleAndTransparent from "./componments/SimpleAndTransparent";
 import SafeguardMoney from "./componments/SafeguardMoney";
 import ReadyToGrow from "./componments/ReadyToGrow";
 import YouShouldknow from "./componments/YouShouldKnow";
+import Footer from "./componments/Footer";
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
       <ReadyToGrow />
       <Divider />
       <YouShouldknow />
+      <Footer />
     </div>
   );
 }
