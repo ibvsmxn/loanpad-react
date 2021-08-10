@@ -20989,7 +20989,8 @@ textarea.form-control-lg {
   padding: 10px;
 }
 .App #intro .intro-perk img {
-  margin-right: 15px;
+  display: block;
+  margin: 10px auto;
 }
 .App #benefits h4, .App #benefits .h4 {
   font-size: 1.125em;
@@ -21050,7 +21051,12 @@ textarea.form-control-lg {
   margin: 25px 0;
 }
 .App #ourAccounts img {
-  margin: 1.5em 0;
+  margin: 0.75em 0;
+}
+@media (min-width: 768px) {
+  .App #ourAccounts img {
+    margin: 1.5em 0;
+  }
 }
 .App #ourAccounts p {
   font-size: 1.125em;
@@ -21059,13 +21065,14 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   align-content: center;
-  text-align: left;
+  text-align: center;
   font-weight: bolder;
   margin-bottom: 1em;
 }
 @media (min-width: 768px) {
   .App #ourAccounts .account-perk {
     margin-bottom: 0;
+    text-align: left;
   }
 }
 .App #ourAccounts .account-perk img {
