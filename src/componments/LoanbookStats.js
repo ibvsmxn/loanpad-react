@@ -15,13 +15,13 @@ import building from '../Images/Landing_page_Opt_building_gif.gif';
 const lastUpdate=('23rd July 2021');
 
 export default LoanbookStats => (
-    <div className="bg-dark text-white py-5">
+    <div className="dark-grey text-white py-5" id="currentLoanbookStatistics">
         <Container>
         <h2>Current Loanbook Statistics</h2>
 
         <Row>
-            <Col className="col-md-8">
-                <Row>
+            <Col className="col-12 col-md-8">
+                <Row className="d-block d-md-flex">
                     <Col className="col-md-4 stat">
                         <img src={totalLiveLoans} alt="Total Live Loans" />
                         <h4>£74,050,000</h4>
@@ -54,14 +54,13 @@ export default LoanbookStats => (
                     </Col>
                 </Row>
             </Col>
-            <Col className="col-md-4">
+            <Col className="col-12 col-md-4">
                 <img src={building} />
-                <p>These fugures were last updated on the</p>
+                <div className="text-holder">
+                    <p>These fugures were last updated on the</p>
                 <span id="lastUpdated">{lastUpdate}</span>
+                </div>
             </Col>
-
-            <p className="prominent">Capital at risk. Not protected by the FSCS. Past performance is not an indicator of future results.</p>
-
         </Row>
     </Container>
     </div>
